@@ -1,0 +1,21 @@
+# Arduino IDE / arduino-cli build output
+build/
+*.bin
+*.elf
+*.map
+*.hex
+
+# PlatformIO (if adopted later)
+.pio/
+.pioenvs/
+.piolibdeps/
+
+# Secrets — never commit Wi-Fi/MQTT credentials
+secrets.h
+**/secrets.h
+
+# Editor/OS cruft
+.vscode/
+.DS_Store
+Thumbs.db
+*.swp
